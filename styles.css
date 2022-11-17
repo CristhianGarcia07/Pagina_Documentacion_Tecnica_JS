@@ -1,0 +1,538 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2f2;
+
+}
+
+.main-contenedor{
+
+    /* width: 100%; */
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    
+}
+
+.nav-bar{
+    width: 100%;
+    max-width: 330px;
+    /* margin-bottom: 20px; */
+}
+
+#navbar{
+
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    overflow: hidden;
+    overflow-y: scroll;
+    /* background-color: yellow; */
+    position: fixed;
+}
+
+#navbar h1{
+
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 20px;
+    /* border-bottom: 1px solid black; */
+   
+}
+
+#navbar a{
+
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+   
+}
+
+/*---------------ESTILOS SECTION-------------*/
+.section-container{
+
+    width: 100%;
+    margin-top: 20px;
+    margin-right: 20px;
+
+}
+
+.section{
+
+    width: 100%;
+    height: auto;
+    padding-right: 15px;
+    
+}
+
+.introduction{
+
+    font-size: 35px;
+    margin-top: 1.5rem;
+    margin-left: 1.875rem;
+    line-height: 2.1875rem;
+}
+
+.parrafo-section1{
+
+    text-align: justify;
+    font-size: .9375rem;
+    margin-top: 1.25rem;
+    margin-left: 2.1875rem;
+}
+
+.li-section1{
+
+    text-align: justify;
+    font-size: .9375rem;
+    margin-top: 1.25rem;
+    margin-left: 80px;
+
+}
+
+/*-----------------SEGUNDA SECCION----------------*/
+
+.What_you_should_already_know{
+
+    font-size: 30px;
+    margin-top: 1.5rem;
+    margin-left: 1.875rem;
+
+}
+
+.parrafo-section2{
+
+    text-align: justify;
+    font-size: .9375rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.25rem;
+    margin-left: 2.1875rem;
+}
+
+.li-section2{
+
+    text-align: justify;
+    font-size: .9375rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.25rem;
+    margin-left: 80px;
+}
+
+/*--------------------TERCERA SECCION-------------------*/
+
+.javascript_and_java{
+
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.5rem;
+    margin-left: 1.875rem;
+}
+
+.parrafo-section3{
+
+    text-align: justify;
+    font-size: .9375rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.25rem;
+    margin-left: 2.1875rem;
+}
+
+/*------------------CUARTA SECCION----------------------*/
+
+.hello_world{
+
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.5rem;
+    margin-left: 1.875rem;
+
+}
+
+.parrafo-section4{
+
+    text-align: justify;
+    font-size: .9375rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.25rem;
+    margin-left: 2.1875rem;
+}
+
+.code1{
+
+    width: 100%;
+    max-width: fit-content;
+    height: auto;
+    background-color: rgb(233, 233, 233);
+    margin-left: 70px;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+/*-----------------QUINTA SECCION-----------------------*/
+
+.variables{
+
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.5rem;
+    margin-left: 1.875rem;
+}
+
+.parrafo-section5{
+
+    text-align: justify;
+    font-size: .9375rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.25rem;
+    margin-left: 2.1875rem;
+}
+
+/*-----------------SEXTA SECCION-----------------------*/
+
+.declaring_variables{
+
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.5rem;
+    margin-left: 1.875rem;
+}
+
+.parrafo-section6{
+
+    text-align: justify;
+    font-size: .9375rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.25rem;
+    margin-bottom: 30px;
+    margin-left: 2.1875rem;
+}
+
+.code2{
+
+    width: 100%;
+    max-width: fit-content;
+    height: auto;
+    background-color: rgb(233, 233, 233);
+    margin-left: 70px;
+    padding: 15px 30px;
+    border-radius: 5px;
+ }
+
+/*-----------------SEPTIMA SECCION-----------------------*/
+
+.variables_scope{
+
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.5rem;
+    margin-left: 1.875rem;
+}
+
+.parrafo-section7{
+
+    text-align: justify;
+    font-size: .9375rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.25rem;
+    margin-bottom: 30px;
+    margin-left: 2.1875rem;
+
+}
+
+.code3{
+
+    width: 100%;
+    max-width: fit-content;
+    height: auto;
+    background-color: rgb(233, 233, 233);
+    margin-left: 70px;
+    padding: 15px 30px;
+    border-radius: 5px;
+ }
+
+/*-----------------OCTAVA SECCION-----------------------*/
+
+
+.global_variables{
+
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.5rem;
+    margin-left: 1.875rem;
+}
+
+.parrafo-section8{
+
+    text-align: justify;
+    font-size: .9375rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.25rem;
+    margin-bottom: 30px;
+    margin-left: 2.1875rem;
+
+}
+
+/*--------------------NOVENA SECCION-----------------------*/
+
+.data_types{
+
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.5rem;
+    margin-left: 1.875rem;
+}
+
+.parrafo-section9{
+
+    text-align: justify;
+    font-size: .9375rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.25rem;
+    margin-bottom: 30px;
+    margin-left: 2.1875rem;
+
+}
+
+.li-section9{
+
+    text-align: justify;
+    font-size: .9375rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.25rem;
+    margin-left: 80px;
+}
+
+.li-section9-1{
+
+    text-align: justify;
+    font-size: .9375rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.25rem;
+    margin-left: 1.875rem;
+}
+
+/*--------------------DECIMA SESION*-----------------------*/
+
+.constants{
+
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.5rem;
+    margin-left: 1.875rem;
+}
+
+.parrafo-section10{
+
+    text-align: justify;
+    font-size: .9375rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.25rem;
+    margin-bottom: 30px;
+    margin-left: 2.1875rem;
+
+}
+
+.code4{
+
+    width: 100%;
+    max-width: fit-content;
+    height: auto;
+    background-color: rgb(233, 233, 233);
+    margin-left: 70px;
+    padding: 15px 30px;
+    border-radius: 5px;
+ }
+ 
+/*--------------------DECIMA-PRIMERA SESION*-----------------------*/
+
+
+.if_else{
+
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.5rem;
+    margin-left: 1.875rem;
+}
+
+.parrafo-section11{
+
+    text-align: justify;
+    font-size: .9375rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.25rem;
+    margin-bottom: 30px;
+    margin-left: 2.1875rem;
+
+}
+
+.code5{
+
+    width: 100%;
+    max-width: fit-content;
+    height: auto;
+    background-color: rgb(233, 233, 233);
+    margin-left: 70px;
+    padding: 15px 30px;
+    border-radius: 5px;
+ }
+
+ /*--------------------DECIMA-SEGUNDA SESION*-----------------------*/
+
+ .while-statement{
+
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.5rem;
+    margin-left: 1.875rem;
+}
+
+.parrafo-section12{
+
+    text-align: justify;
+    font-size: .9375rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.25rem;
+    margin-bottom: 30px;
+    margin-left: 2.1875rem;
+
+}
+
+.code6{
+
+    width: 100%;
+    max-width: fit-content;
+    height: auto;
+    background-color: rgb(233, 233, 233);
+    margin-left: 70px;
+    padding: 15px 30px;
+    border-radius: 5px;
+ }
+
+.li-section12{
+
+    text-align: justify;
+    font-size: .9375rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.25rem;
+    margin-left: 80px;
+}
+
+ /*--------------------DECIMA-TERCERA SESION*-----------------------*/
+
+.funtion-declarations{
+
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.5rem;
+    margin-left: 1.875rem;
+}
+
+.parrafo-section13{
+
+    text-align: justify;
+    font-size: .9375rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.25rem;
+    margin-bottom: 30px;
+    margin-left: 2.1875rem;
+
+}
+
+.code7{
+
+    width: 100%;
+    max-width: fit-content;
+    height: auto;
+    background-color: rgb(233, 233, 233);
+    margin-left: 70px;
+    padding: 15px 30px;
+    border-radius: 5px;
+ }
+
+/*--------------------DECIMA-CUARTA SESION*-----------------------*/
+
+  .references{
+
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.5rem;
+    margin-left: 1.875rem;
+}
+
+.li-section13{
+
+    text-align: justify;
+    font-size: .9375rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.25rem;
+    margin-left: 80px;
+    margin-bottom: 30px;
+}
+
+/*----------------------RESPONSIVE---------------------*/
+
+
+@media (max-width: 780px) {
+
+    .main-contenedor{
+
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        width: 100%;    
+    }
+
+    
+    #navbar{
+
+        display: flex;
+        position: initial;
+        width: 759px;
+        height: 300px;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+
+    #navbar h1{
+
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        margin: 20px;
+        /* border-bottom: 1px solid black; */ 
+    }
+
+    #navbar a{
+
+        font-size: inherit;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        margin-left: 20px;
+        /* margin-bottom: 20px; */
+        padding: 10px;
+        border-bottom: 1px solid black; 
+    }
+
+    .section-container{
+
+
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        padding-right: 20px;
+        /* position: initial; */
+  
+    
+    }
+
+    
+}
